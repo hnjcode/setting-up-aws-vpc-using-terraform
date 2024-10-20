@@ -1,0 +1,12 @@
+# Terraform lock file
+.terraform.lock.hcl
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# PEM key files
+*.pem
