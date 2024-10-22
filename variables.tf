@@ -22,6 +22,10 @@ variable "T2_Micro" {
   default = "t2.micro"
 }
 
-variable "Key_Pair_WEB" {
-  default = "web-key"
+variable "availability_zone_1" {
+  default = "us-west-1a"
+}
+
+variable "availability_zone_2" {
+  default = "us-west-1c"
 }
